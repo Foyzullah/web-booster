@@ -27,7 +27,7 @@ const Settings = () => {
       role: data.role,
       photoUrl: photoUrl,
     };
-    const url = `http://localhost:5000/addManageRole`;
+    const url = `https://mysterious-beach-22515.herokuapp.com/addManageRole`;
     fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json " },

@@ -1,9 +1,14 @@
 .get-in-touch {
   background-color: #FAFAFA;
   padding: 50px 0;
+ 
 }
 
-p.single-element {position: relative;padding-left: 45px;}
+p.single-element {
+  position: relative;
+  padding-left: 45px;
+  color: #6e7582;
+}
 
 .icon-position {
   position: absolute;

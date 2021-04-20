@@ -1,0 +1,38 @@
+.services .col-md-3, .services .col-md-9 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.services-content h2 {
+  background-color: #126e82;
+  color: #fff;
+  padding: 10px;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.services-content{
+  background-color: #2b4f60;
+  color: #fff;
+  height: 100vh;
+}
+
+.service-table table{
+  width: 100%;
+}
+.service-table thead {
+  font-weight: bold;
+}
+.service-table {
+  padding: 20px;
+}
+
+.service-table img {
+  max-width: 30px;
+}
+
+svg.svg-inline--fa.fa-trash-alt.fa-w-14.cursor {
+  cursor: pointer;
+}
+

@@ -28,7 +28,7 @@ const Review = () => {
       comment: data.comment,
       photoUrl: photoUrl,
     };
-    const url = `http://localhost:5000/review`;
+    const url = `https://mysterious-beach-22515.herokuapp.com/review`;
     fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },

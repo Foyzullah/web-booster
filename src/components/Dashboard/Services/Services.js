@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Service from "../Service/Service";
 import Sidebar from "../Sidebar/Sidebar";
+import "./Services.css";
 
 const Services = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    fetch("https://mysterious-beach-22515.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
@@ -16,7 +17,7 @@ const Services = () => {
           <Sidebar />
           <div className="col-md-9">
             <div className="services-content">
-              <h3>Services</h3>
+              <h2>Services</h2>
               <div className="service-table">
                 <table>
                   <thead>

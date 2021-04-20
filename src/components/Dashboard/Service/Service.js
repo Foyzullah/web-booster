@@ -7,17 +7,23 @@ const Service = ({ service }) => {
   const { _id, serviceName, serviceBudget, serviceIconUrl } = service;
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/deleteService/${id}`, {
+    fetch(`https://mysterious-beach-22515.herokuapp.com/deleteService/${id}`, {
       method: "DELETE",
     });
   };
   return (
     <tr>
-      <td>{serviceIconUrl}</td>
+      <td>
+        <img src={serviceIconUrl} alt="" />
+      </td>
       <td>{serviceName}</td>
       <td>{serviceBudget}</td>
       <td>
-        <FontAwesomeIcon onClick={() => handleDelete(_id)} icon={faTrashAlt} />
+        <FontAwesomeIcon
+          className="cursor"
+          onClick={() => handleDelete(_id)}
+          icon={faTrashAlt}
+        />
       </td>
     </tr>
   );

@@ -5,7 +5,7 @@ import "./TeamMembers.css";
 const TeamMembers = () => {
   const [teamMembers, setTeamMembers] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:5000/teamMembers`)
+    fetch(`https://mysterious-beach-22515.herokuapp.com/teamMembers`)
       .then((res) => res.json())
       .then((data) => setTeamMembers(data));
   }, []);

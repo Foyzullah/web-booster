@@ -31,7 +31,7 @@ const AddTeamMember = () => {
       aboutMember: data.aboutMember,
       photoUrl: imageUrl,
     };
-    const url = `http://localhost:5000/addTeamMember`;
+    const url = `https://mysterious-beach-22515.herokuapp.com/addTeamMember`;
     fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },

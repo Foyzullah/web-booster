@@ -29,7 +29,7 @@ const AddService = () => {
       serviceDescription: data.serviceDescription,
       serviceIconUrl: iconUrl,
     };
-    const url = `http://localhost:5000/addService`;
+    const url = `https://mysterious-beach-22515.herokuapp.com/addService`;
     fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },

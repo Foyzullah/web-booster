@@ -40,7 +40,7 @@ const PlaceOrder = () => {
       orderStatus: orderStatus,
       ...service,
     };
-    const url = `http://localhost:5000/addOrder`;
+    const url = `https://mysterious-beach-22515.herokuapp.com/addOrder`;
     fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
