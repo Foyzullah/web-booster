@@ -1,8 +1,8 @@
 .single-testimonial img {
-  max-width: 300px;
-  border-radius: 3px;
+  max-width: 150px;
+  border-radius: 50%;
   transition: .5s;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .single-testimonial {
@@ -10,7 +10,7 @@
   box-shadow: 0 0 20px #f4eee8;
   border-radius: 3px;
   text-align: center;
-  height: 550px;
+  height: 400px;
   color: #a7c5eb;
 }
 
