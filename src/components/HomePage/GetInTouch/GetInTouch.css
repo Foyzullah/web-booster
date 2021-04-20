@@ -1,0 +1,18 @@
+.get-in-touch {
+  background-color: #FAFAFA;
+  padding: 50px 0;
+}
+
+p.single-element {position: relative;padding-left: 45px;}
+
+.icon-position {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  font-size: 25px;
+  color: #002D5B;
+}
+
+.get-in-touch p {
+  margin-bottom: 35px;
+}

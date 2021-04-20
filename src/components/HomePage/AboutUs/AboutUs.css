@@ -1,0 +1,30 @@
+.about-us-section {
+  padding: 100px 0;
+}
+
+h3.title {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #002D5B;
+  margin-bottom: 50px;
+}
+.about-us-img img {
+  max-width: 100%;
+  border: 1px solid #002D5B;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.about-content {
+  padding: 20px 0;
+  font-size: 18px;
+  line-height: 28px;
+  color: #8ab6d6;
+}
+
+h3.heading {
+  color: #002D5B;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,26 @@
+.single-service-item img {
+  max-width: 50px;
+  margin-bottom: 20px;
+  transition: .3s;
+}
+
+.single-service-item {
+  text-align: center;
+  height: 400px;
+  border: 1px solid #002D5B;
+  padding: 20px;
+  border-radius: 3px;
+  color: #28b5b5;
+  cursor: pointer;
+}
+
+.single-service-item h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  color: #002D5B;
+}
+
+.single-service-item img:hover {
+  transform: scale(1.1);
+}

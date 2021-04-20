@@ -1,0 +1,51 @@
+.add-service .col-md-3, .add-service .col-md-9 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.service-content h2 {
+  background-color: #126e82;
+  color: #fff;
+  padding: 10px;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.service-content{
+  background-color: #2b4f60;
+  color: #fff;
+  height: 100vh;
+}
+
+.add-service-form {
+  padding: 30px;
+}
+
+.add-service-form input, .add-service-form textarea {
+  width: 100%;
+  border: none;
+  padding: 6px;
+  border-radius: 2px;
+}
+
+.add-service-form textarea{
+  resize: none;
+}
+
+.add-service-form label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.add-service-content input[type="submit"] {
+  width: auto;
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+input:focus, textarea:focus{
+  outline: none;
+}

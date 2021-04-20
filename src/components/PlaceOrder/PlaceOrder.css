@@ -1,0 +1,34 @@
+.place-order table {
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd !important;
+  text-align: left;
+  padding: 8px;
+}
+
+.place-order h2 {
+  text-align: left;
+  margin-bottom: 24px;
+  font-size: 25px;
+}
+
+.place-order table {
+  margin-bottom: 25px;
+}
+
+.place-order {
+  margin-top: 20px;
+}
+
+.shipment-form input{
+  width: 100%;
+  border: none;
+  padding: 6px;
+  border-radius: 2px;
+  background-color: #dbf6e9;
+}
+.shipment-form label{
+  font-size: 18px;
+  font-weight: 500;
+}

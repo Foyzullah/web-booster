@@ -1,0 +1,30 @@
+.dashboard .col-md-3, .dashboard .col-md-9 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.dashboard h2 {
+  background-color: #126e82;
+  color: #fff;
+  padding: 10px;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.dashboard-content{
+  background-color: #2b4f60;
+  color: #fff;
+  height: 100vh;
+}
+.dashboard-content table{
+  width: 100%;
+}
+
+.orders-table {
+  padding: 20px;
+}
+
+.orders-table thead {
+  font-weight: bold;
+}

@@ -1,0 +1,36 @@
+.single-testimonial img {
+  max-width: 300px;
+  border-radius: 3px;
+  transition: .5s;
+  margin-bottom: 15px;
+}
+
+.single-testimonial {
+  padding: 20px;
+  box-shadow: 0 0 20px #f4eee8;
+  border-radius: 3px;
+  text-align: center;
+  height: 550px;
+  color: #a7c5eb;
+}
+
+.single-testimonial h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #583d72;
+  margin: 20px 0;
+  letter-spacing: 3px;
+}
+
+.single-testimonial h3 span {
+  display: block;
+  font-size: 16px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  font-weight: normal;
+}
+
+.single-testimonial img:hover {
+  transform: scale(1.03);
+}

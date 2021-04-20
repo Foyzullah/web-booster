@@ -1,0 +1,44 @@
+.review .col-md-3, .review .col-md-9 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.review-content h2 {
+  background-color: #126e82;
+  color: #fff;
+  padding: 10px;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.review-form {
+  padding: 30px;
+}
+.review-content{
+  background-color: #2b4f60;
+  color: #fff;
+  height: 100vh;
+}
+
+.review-form input, .review-form textarea {
+  width: 100%;
+  border: none;
+  padding: 6px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.review-form label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.review-form p {
+  margin-bottom: 30px;
+}
+
+input[type="file"] {
+  width: auto;
+  padding: 0;
+}

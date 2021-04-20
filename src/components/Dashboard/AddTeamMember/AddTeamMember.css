@@ -1,0 +1,42 @@
+.add-teamMember .col-md-3, .add-teamMember .col-md-9 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.temMember-content h2 {
+  background-color: #126e82;
+  color: #fff;
+  padding: 10px;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.teamMember-form {
+  padding: 30px;
+}
+.temMember-content{
+  background-color: #2b4f60;
+  color: #fff;
+  height: 100vh;
+}
+
+.teamMember-form input, .teamMember-form textarea {
+  width: 100%;
+  border: none;
+  padding: 6px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+.teamMember-form textarea{
+  resize: none;
+}
+
+.teamMember-form label {
+  font-size: 18px;
+  font-weight: 500;
+}
+.teamMember-form p {
+  margin: 0;
+}

@@ -1,0 +1,25 @@
+ul.dashboard-sidebar li {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 35px;
+}
+
+.icon {
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+
+ul.dashboard-sidebar {
+  list-style: none;
+  margin: 0;
+  padding: 40px;
+  background-color: #0061a8;
+  height: 100vh;
+}
+
+ul.dashboard-sidebar li a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
